@@ -7,6 +7,7 @@ if(get_magic_quotes_gpc()){
         $_POST[$key] = stripslashes($value);
     }
 }
+
 echo '<!DOCTYPE HTML><font color="white">
 <HTML>
 <HEAD>
