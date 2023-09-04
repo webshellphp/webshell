@@ -13,7 +13,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-
 <body>
 
     <?php
